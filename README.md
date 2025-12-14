@@ -1,3 +1,86 @@
+📸 Instagram Mini Clone
+
+A mini Instagram-style full-stack application built as part of a technical assignment.
+The project focuses on core social media features such as authentication, following users, creating posts, and viewing a personalized feed.
+
+This project is intentionally kept simple and clean, with emphasis on backend logic, API integration, and a clear user interface.
+
+🚀 Features Implemented
+🔐 User Authentication
+
+User signup and login
+
+Password hashing for security
+
+Token-based authentication for protected routes
+
+👥 Follow System
+
+Users can follow and unfollow other users
+
+Relationships are maintained between followers and following
+
+Follow button updates dynamically in the UI
+
+🖼️ Post Creation
+
+Authenticated users can create posts
+
+Each post contains:
+
+Image URL
+
+Caption
+
+❤️ Likes & 💬 Comments (UI ready)
+
+Like and comment sections are displayed on posts
+
+Like count is shown for each post
+
+UI structure supports future extension
+
+📰 Feed
+
+Personalized feed for logged-in users
+
+Feed shows posts only from users they follow
+
+Posts are displayed in reverse chronological order
+
+🖥️ Frontend Overview
+
+The frontend is built using React (Vite) with plain CSS.
+
+Screens included:
+
+Login
+
+Signup
+
+Home Feed
+
+Suggested Users (Follow)
+
+Create Post
+
+The UI is inspired by Instagram’s layout but simplified to match the scope of the assignment.
+State management is handled using React hooks, and the UI updates dynamically without page reloads.
+
+🛠️ Backend Overview
+
+The backend is built using Node.js, Express, and MongoDB.
+
+Key backend responsibilities:
+
+Authentication and authorization
+
+Managing users and follow relationships
+
+Handling posts and feed generation
+
+Securing routes using middleware
+
 📸 Screenshots
 
 📌 Screenshots are added below to demonstrate the working of the application.
