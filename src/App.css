@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+input {
+  display: block;
+  margin: 8px auto;
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+div {
+  text-align: center;
+}

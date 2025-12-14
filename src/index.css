@@ -1,0 +1,205 @@
+/* ===============================
+   GLOBAL RESET
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   COLOR VARIABLES
+================================ */
+:root {
+  --light-pink: #ffe6ee;
+  --dark-pink: #e75480;
+  --border-gray: #dbdbdb;
+  --text-dark: #262626;
+}
+
+/* ===============================
+   BODY
+================================ */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light-pink);
+  color: var(--text-dark);
+}
+
+/* ===============================
+   APP LAYOUT (BROADER)
+================================ */
+.app {
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 80px; /* space for bottom nav */
+}
+
+/* ===============================
+   TOP NAVBAR
+================================ */
+.top-nav {
+  height: 55px;
+  background-color: var(--dark-pink);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===============================
+   AUTH (LOGIN / SIGNUP)
+================================ */
+.auth-container {
+  background: white;
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  border: 1px solid var(--border-gray);
+  text-align: center;
+}
+
+.auth-container h2 {
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--border-gray);
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--dark-pink);
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ===============================
+   STORIES BAR
+================================ */
+.stories {
+  display: flex;
+  gap: 16px;
+  padding: 15px 10px;
+  background: white;
+  border-bottom: 1px solid var(--border-gray);
+  overflow-x: auto;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.story-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--dark-pink);
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+/* ===============================
+   FEED CONTAINER
+================================ */
+.feed-container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+/* ===============================
+   SECTION TITLE
+================================ */
+.section-title {
+  font-weight: bold;
+  margin: 15px 0;
+  padding-left: 5px;
+}
+
+/* ===============================
+   POST CARD
+================================ */
+.post-card {
+  background: white;
+  border: 1px solid var(--border-gray);
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
+
+.post-header {
+  padding: 12px;
+  font-weight: bold;
+}
+
+.post-image {
+  width: 100%;
+  display: block;
+}
+
+.post-content {
+  padding: 14px;
+}
+
+.post-icons {
+  color: var(--dark-pink);
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.post-actions {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.primary-btn {
+  background-color: var(--dark-pink);
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.primary-btn:disabled {
+  background-color: #f2a1b3;
+  cursor: default;
+}
+
+/* ===============================
+   BOTTOM NAVBAR
+================================ */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  border-top: 1px solid var(--border-gray);
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  font-size: 20px;
+  color: var(--dark-pink);
+}
